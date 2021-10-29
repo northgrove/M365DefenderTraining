@@ -19,6 +19,17 @@ During the workshop you must have access to a trial environment not used before.
 <b>This should not in any circumstances be an existing production environment</b>
 
 <br>
+Pre-requisite for completing the LAB/Course there is a requirement for having access to two Machines.  
+
+One for accessing the Portals and another for testing purposes.  
+
+For Portal Access you will need a supported Browser installed, Microsoft Egde (Chomium based) or Google Chrome is supported, Firefox can work but is not supported.   
+
+For completing LAB/Tests a Windows 10/11 Pro or Enterprise is required. The machine must be newly installed physical machine or Virtual machine (Local, ESXI, Hyper-V etc.) The machine is going to be enrolled in to Intune (MDM), make sure to not domain join or adding the machine to any other MDM tool before the course.  
+
+Make sure that **no sensitive or critical information** is stored on your LAB machine, and that it's **not part of any production environment**. After the LAB this machine should be deleted and scraped.
+
+<br>
 <br>
 
 ### Registration of an trial tenant
