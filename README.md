@@ -25,7 +25,7 @@ One for accessing the Portals and another for testing purposes.
 
 For Portal Access you will need a supported Browser installed, Microsoft Egde (Chomium based) or Google Chrome is supported, Firefox can work but is not supported.   
 
-<h4>For completing LAB/Tests a Windows 10/11 Pro or Enterprise is required. The machine must be newly installed physical machine or Virtual machine (Local, ESXI, Hyper-V etc.) The machine is going to be enrolled in to Intune (MDM), make sure to not domain join or adding the machine to any other MDM tool before the course.  </h4>
+**For completing LAB/Tests a Windows 10/11 Pro or Enterprise is required. The machine must be newly installed physical machine or Virtual machine (Local, ESXI, Hyper-V etc.) The machine is going to be enrolled in to Intune (MDM), make sure to not domain join or adding the machine to any other MDM tool before the course.**  
 
 Make sure that **no sensitive or critical information** is stored on your LAB machine, and that it's **not part of any production environment**. After the LAB this machine should be deleted and scraped.
 
