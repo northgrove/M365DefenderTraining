@@ -1,12 +1,10 @@
-# First - Microsoft 365 Defender Training Workshop
-
-The "FIRST - Cold Incident Response" conference is held in Oslo, Norway November 16. to November 18.  
-For registration and progam visit: https://www.coldincidentresponse.no/
+# Microsoft 365 Defender Training Workshop
 
 Attendees will get an opportunity to try their hands at configuration, detection and security analysis using MS tools such as the Defender XDR products and Azure Sentinel.
 The workshop is aimed at security analysts and technical staff looking to learn or get more out of the security consoles provided within the Microsoft E5 suite.
 Best Practices for configuration of Defender for Endpoints, Defender for Office and Cloud App Security will be covered, as well as analysis and mitigation of real attack scenarios.
-The workshop will be held by Kent Husvik, Kjetil Nordlund and Richard Skjærstad from Microsoft Norway.  
+The workshop is created by Kent Husvik and Kjetil Nordlund from Microsoft Norway. 
+
 <br>
 <br>
 <br>
