@@ -1,8 +1,8 @@
 # Microsoft 365 Defender Training Workshop
 
-Attendees will get an opportunity to try their hands at configuration, detection and security analysis using MS tools such as the Defender XDR products and Azure Sentinel.
+Attendees will get an opportunity to try their hands at configuration, detection and security analysis using MS tools such as the Microsoft 365 Defender products and Microsoft Sentinel.
 The workshop is aimed at security analysts and technical staff looking to learn or get more out of the security consoles provided within the Microsoft E5 suite.
-Best Practices for configuration of Defender for Endpoints, Defender for Office and Cloud App Security will be covered, as well as analysis and mitigation of real attack scenarios.
+Best Practices for configuration of Defender for Endpoints, Defender for Office and Defender for Cloud Apps will be covered, as well as analysis and mitigation of real attack scenarios.
 <br>
 <br>
 The workshop is created by Kent Husvik and Kjetil Nordlund from Microsoft Norway. 
