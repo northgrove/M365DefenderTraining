@@ -100,14 +100,14 @@ Verify that the preview experience setting are turned on. To be among the first 
 <br>
 <br>
 
-### Test users and groups
+### Create some Test users and groups
 ---
 Create at least three regular users in your Azure AD tenant in addition to your Global Administrator user created when activated the tenant.  
 Create at least three Azure AD groups in your Azure AD tenant.
 <br>
 <br>
 
-### Turn of Security Defaults
+### Turn off Security Defaults
 ---
 To be able to test Conditional Access policies, the default enabled “Security Defaults” need to be turned off first.
 Disabling Security Defaults: https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/concept-fundamentals-security-defaults#disabling-security-defaults    
