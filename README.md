@@ -15,6 +15,8 @@ The workshop is created by Kent Husvik and Kjetil Nordlund from Microsoft Norway
 ---
 There will be required to do some necessary preparation in forehand of attending the workshop. 
 
+> ***These preparation should be completed minimum 24houres before the workshop starts.***
+
 During the workshop you must have access to a trial environment not used before.   
 <b>This should not in any circumstances be an existing production environment</b>
 
@@ -28,6 +30,8 @@ For Portal Access you will need a supported Browser installed, Microsoft Egde (C
 **For completing LAB/Tests a Windows 10/11 Pro or Enterprise is required. The machine must be newly installed physical machine or Virtual machine (Local, ESXI, Hyper-V etc.) The machine is going to be enrolled in to Intune (MDM), make sure to not domain join or adding the machine to any other MDM tool before the course.**  
 
 Make sure that **no sensitive or critical information** is stored on your LAB machine, and that it's **not part of any production environment**. After the LAB this machine should be deleted and scraped.
+
+> Tip! If you absolutly have no other options, it is possible to use the machine generated in the "evaluation lab" in M465 Defender / Defender for Endpoint.
 
 <br>
 <br>
@@ -58,19 +62,26 @@ Navigate in a supported browser to [Security.microsoft.com](https://security.mic
 Make sure you are loged in with the user you just created a trial teant with.  
 
 Browser requirements: https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/minimum-requirements?view=o365-worldwide  
+
+Take some time and browse around in the console. I.e; Click on "devices"
+Expect to find some "Hang on! We're preparing new spaces for your data and connecting them" messages. But its important to gets things triggered (by clicking on them)
+
+
 <br>
 <br>
 
 ### Turn on preview features and other features
 ---
-Turn on the preview experience setting to be among the first to try upcoming features.
-1.	In the navigation pane, select Settings > Endpoints > Advanced features > Preview features.  
-   ![preview](./img/preview1.png)
-   ![preview](./img/preview2.png)  <br>
+Verify that the preview experience setting are turned on. To be among the first to try upcoming features.
+1.	In the navigation pane, select Settings > Microsoft 365 Defender> Account > Preview features.  
+   ![preview](./img/preview6.png)
+<br>
 
-2.	Toggle the setting between On and Off and select Save preferences.
-3.	Reload the console and find your way back to Settings > Endpoints > Advanced features 
-4.	Activate all features Except “Restrict correlation to within scoped device groups”
+
+2.	Find your way back to Settings > Endpoints > Advanced features 
+3.	Activate all features Except “Restrict correlation to within scoped device groups”
+4. Click on "save preferences" at the bottom
+   ![preview](img/preview7.png)
 
 <br>
 <br>
@@ -79,9 +90,9 @@ Turn on the preview experience setting to be among the first to try upcoming fea
 ---
 1.	If auditing is not turned on for your organization, you can turn it on in the Microsoft 365 compliance center or by using Exchange Online PowerShell. It may take several hours after you turn on auditing before you can return results when you search the audit log.
 2.	Use the compliance center to turn on auditing
-3.	Go to compliance.microsoft.com and sign in.
+3.	Go to https://compliance.microsoft.com and sign in.
 4.	In the left navigation pane of the Microsoft 365 compliance center, click Audit.
-5.	If auditing is not turned on for your organization, a banner is displayed prompting you start recording user and admin activity.  
+5.	If auditing is not turned on for your organization, a banner is displayed prompting you "start recording user and admin activity".  
 ![audit](./img/audit.png)  
 7.	Click the Start recording user and admin activity banner.
 8.	It may take up to 60 minutes for the change to take effect.
@@ -106,8 +117,10 @@ To disable security defaults in your directory:
 1.	Sign in to the Azure portal as a security administrator, Conditional Access administrator, or global administrator.
 2.	Browse to Azure Active Directory > Properties.
 3.	Select Manage security defaults.
-4.	Set the Enable security defaults toggle to No.
-5.	Select Save.
+4.	Set the "Security defaults" toggle to Disabled.
+5. Choose "My organization is using Conditional Access"
+6.	Select Save.
+7. Confirm by clicking "disable"
 
 <br>
 <br>
@@ -120,5 +133,37 @@ https://mysignins.microsoft.com/security-info
   
 Follow these steps to create a Conditional access policy requiring MFA for all users:   
 https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa#create-a-conditional-access-policy  
+Make sure its enabled (after you have registered MFA info on your admin account)
+
+> Tip! To regsiter SMS MFA option on your test account you can use your admin account and register phone number as "authentication methods" on your test accounts from the AAD console. (NB! Admin accounts need to be member of the "user administrator" role.) 
 
 In addition, create one Conditional Access policy to block use of all Legacy authentication protocols in your tenant.
+
+
+### Device enrollment preparation
+
+1. Goto https://endpoint.microsoft.com
+2. Goto Devices > Enroll devices > automatic Enrollment
+3. change "MDM user scope" and "MAM user scope" to "All"
+4. Click "Save"
+
+![IntuneEnroll](./img/intuneenroll.png) 
+
+
+### Enable the Defender for Endpoint Evaluation LAB
+1. Go to https://security.microsoft.com
+2. Go to the "Endpoints" section in the left menu. Expand "Evaluation & tutorials"
+3. Click on "Evaluation lab".
+4. Click on "setup lab"
+   ![evallab](./img/evallab1.png) 
+5. Choose "8 devices for 24h each" (if you dont have any big reason to choose something else)
+6. click next
+     ![evallab](./img/evallab2.png) 
+7. Consent for Microsoft privacy statement (each link must be clicked and accepted befor checking the box)
+8. Consent to the licensing agreement for AttackIQ and SafeBreach
+9.  Add your Email, First name, last name
+10. click next
+      ![evallab](./img/evallab3.png) 
+11. click setup lab
+  ![evallab](./img/evallab4.png) 
+(dont use all your 8 devices before the workshop day, they will only exist for 24h before they are deleted)
