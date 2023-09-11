@@ -75,12 +75,17 @@ Expect to find some "Hang on! We're preparing new spaces for your data and conne
 Verify that the preview experience setting are turned on. To be among the first to try upcoming features.
 1.	In the navigation pane, select Settings > Microsoft 365 Defender> Account > Preview features.  
    ![preview](./img/preview6.png)
+2. Click on "Alert Service Settings"
+3. Choose "All Alerts", select an suitable reason i.e "We are using these alerts to enrich existing alerts"
+    ![M365Defender](./img/M365defender.png)
+4. Click "confirm"
+
 <br>
 
 
-2.	Find your way back to Settings > Endpoints > Advanced features 
-3.	Activate all features Except “Restrict correlation to within scoped device groups”
-4. Click on "save preferences" at the bottom
+5.	Find your way back to Settings > Endpoints > Advanced features 
+6.	Activate all features Except “Restrict correlation to within scoped device groups”
+7. Click on "save preferences" at the bottom
    ![preview](img/preview7.png)
 
 <br>
@@ -167,3 +172,4 @@ In addition, create one Conditional Access policy to block use of all Legacy aut
 11. click setup lab
   ![evallab](./img/evallab4.png) 
 (dont use all your 8 devices before the workshop day, they will only exist for 24h before they are deleted)
+
