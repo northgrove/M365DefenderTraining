@@ -93,3 +93,43 @@ Click "Save"
 9.	On Assignments - Click "Add all users" - Click Next
 10.	Click Create
 
+### Test Scenario
+
+The testscenario requires a device enroll to intune and Defender for Endpoint.
+
+**Test Attack Surface Reduction**
+
+
+https://demo.wd.microsoft.com/ - contains several test scenarios for Defender and ASR
+![MDE-Testsite](../img/MDE-testsite.png)
+Run the following test scenarios:
+- Attack Surface Reduction (ASR)
+- Network Protection
+- Block At First Sight (BAFS)
+
+Malicious file download:
+https://aka.ms/ioavtest (clicking on the link will trigger download of a malicious file)
+
+Download Sysinternals - procdump from the following site:
+[Sysinternals Utilities - Windows Sysinternals | Microsoft Docs](https://docs.microsoft.com/en-us/sysinternals/downloads/)
+Start a command line and run the following procdump command:
+``` 
+procdump lsass.exe
+```
+
+Download Mikiatz or similar tools to try to extra identity information from lsass.exe:
+
+https://github.com/gentilkiwi/mimikatz/releases
+
+To be able to download and run Mimikatz you may need to disable som Defender for Endpoint first in line defense mechanisem like Smart Screen.
+
+> **Important:**
+> Dont do any of theese test on a production machine
+
+Review the report for detections and what’s blocked in security.microsoft.com console for ASR rules. 
+![ASR-report](../img/ASR-report.png)
+
+### Tasks - Defender for Endpoint
+
+1. Write a KQL query that shows enabled ASR rules on your machines
+2. 
