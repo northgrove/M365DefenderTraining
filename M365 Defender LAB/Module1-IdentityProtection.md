@@ -10,6 +10,7 @@ Configuration is done in the Azure Portal -> https://portal.azure.com -> Azure A
 Deep link: [Identity Protection - Microsoft Azure](https://portal.azure.com/#blade/Microsoft_AAD_IAM/IdentityProtectionMenuBlade/Overview)
 
 **Create an MFA Registration Policy**
+
 ![ID Protection1](../img/AADIDprotection1.png)
 
 Assignments: *All users*
@@ -20,24 +21,31 @@ Enforce policy: *On*
 This policy will enforce all users in the tenant to register for MFA. An MFA registration wizard will appear during login. The users have the option to postpone the MFA registration up to 14 days.
 
 **Create a risky user policy**
+
 ![Risky user](../img/idProt-riskyuser.png)
+
 Assignments: Assign this policy only to “testUser1”
 
 ![risky user](../img/idProt-riskyuser2.png)
+
 User risk: choose “Low and above”
 
 ![Risky user](../img/idProt-riskyuser3.png)
+
 Controls: Allow access + require password change
 
 **Create a risky sign-in policy**
 
 ![Risky sign-in](../img/idprot-riskysignin.png)
+
 Assignments: Assign this policy only to “testUser1” and “testuser2”
 
 ![Risky sign-in](../img/idprot-riskysignin2.png)
+
 Sign-in risk: choose “Low and above”
 
 ![Risky sign-in](../img/idprot-riskysignin3.png)
+
 Controls: Allow access + require multi-factor authentication
 
 <br><br>

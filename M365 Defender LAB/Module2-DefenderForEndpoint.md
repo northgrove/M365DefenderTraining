@@ -17,7 +17,9 @@ Open the Endpoint manager console with the URL – https://endpoint.microsoft.co
 1.	Navigate to Endpoint Security, click on Security Baselines - > Click "Security Baseline for Windows 10 and later" .
 2.	Click on Create profile.
 3.	Provide a Name and Click Next
+
  ![securitybaseline](../img/securitybaseline.png)
+
 4.	Click Next on configuration settings
 5.	Click Next on Scope tags
 6.	Click Next on Assignments (dont add any users/devices)
@@ -32,7 +34,9 @@ Open the Endpoint manager console with the URL – https://endpoint.microsoft.co
 4.	Windows Security Experience and Click Create
 5.	Provide a Name and Click Next
 6.	Make Sure the following is enabled (Tamper Protection and Hide Family Options)
+
  ![Tamperprotection](../img/tamper%20protection.png)
+
 7.	Click Next on Configuration settings
 8.	Click Next on Scope tags
 9.	On Assignments - Click "Add all users" - Click Next
@@ -45,11 +49,13 @@ Back in the Console
 3.	Microsoft Defender Antivirus and Click Create
 4.	Provide a Name and Click Next
 5.	Make sure the following is enabled.
+
  ![AntivirusSettings](../img/AntivirusSettings.png)
+
  ![AntivirusSettings](../img/AntivirusSettings1.png)
+
  ![AntivirusSettings](../img/AntivirusSettings2.png)
- 
- 
+  
 6.	Click Next on Configuration settings
 7.	Click Next on Scope tags
 8.	On Assignments - Click "Add all users" - Click Next

@@ -11,6 +11,7 @@ https://security.microsoft.com -> Settings -> Cloud Apps -> Files
 Deep link: https://security.microsoft.com/cloudapps/settings?tabid=filesSettings&tid=dc23f235-b018-4e6c-98d2-3a51deb241ba
 
 ![MDEapps](../img/MDApps1.png)
+
 Check the "Enable file monitoring" box and click Save
 
 
@@ -21,9 +22,11 @@ https://security.microsoft.com -> Settings -> Cloud Apps -> App Connectors
 
 
 ![MDEapps](../img/MDApps.png)
+
 Click “Connect an app” and Choose “Office 365”
  
 ![MDEapps](../img/MDApps2.png)
+
 Choose all components and click connect. Authenticate with your admin user.
 
 
@@ -63,7 +66,9 @@ Scroll down to or search for “mass download by a single user”
  Deep link: https://security.microsoft.com/cloudapps/policies/templates?name=eq(mass%2520download)&tid=dc23f235-b018-4e6c-98d2-3a51deb241ba
 
 Click on the + sign in the colum to right for that policy template
+
 ![MDEapps](../img/MDApps3.png)
+
 Configure the policy to reflect sensible settings. In this scenario we do set a configuration that’s makes it easy to trigger an alert:
 -	Repeated activity:
 o	Minimum repeated activities: 5
@@ -80,6 +85,7 @@ https://security.microsoft.com -> "Cloud apps" section -> Cloud App Catalog -> s
 Deep link: https://security.microsoft.com/cloudapps/app-catalog?text=contains(o:(searchType:i:1,adv:b:false),dropbox)&tid=dc23f235-b018-4e6c-98d2-3a51deb241ba
 
 ![MDEapps](../img/MDApps4.png) 
+
 In the Actions column, click on the   icon for the Dropbox app.
 Confirm that you want to block the app.
 

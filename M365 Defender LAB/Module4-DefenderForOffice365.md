@@ -28,17 +28,27 @@ Refer to the recommended settings to determine Default, Standard og Strict setti
 
 1.	Click on Anti-phishing and create a new Policy
 2.	Give the policy a Name
+
  ![phish-name](../img/phish1.png)
+
 3.	Add your tenant domain(s)
+
  ![phish-name](../img/phish2.png)
+
 4.	Move the Phishing email threshold slider to 2-Aggressive
+
  ![phish-name](../img/phish3.png)
+
 6.	Click on manage 0 sende(s) - add your test users
+
  ![phish-name](../img/phish4.png)
+
 8. Click Next
 9. Select "Move message to the recipients Junk Email folder" as most actions
+
 ![phish-name](../img/phish5.png)
-10. Click next and done
+
+1.  Click next and done
 
 **Test impersionation**
 
@@ -56,24 +66,32 @@ For reference to Default, Standard or strict setting open the [Safe Attachments]
 
 1. In Threat policies, click on Safe Attachments.
 2. Open Global Settings (Global means tenant wide settings)
-    ![Global Settings](../img/MDO-global.png)
+
+![Global Settings](../img/MDO-global.png)
+
 3. Activate Global Settings for:
     •	Defender for O365, SharePoint, OneDrive, and Microsoft Teams
     •	Safe Documents for Office Client.
+
 ![Global Settings](../img/MDO-global2.png)
 
 ***Policy Settings***
 
 1.	Create a new Policy
- ![Safe Attachments](../img/SA1.png)
+
+![Safe Attachments](../img/SA1.png)
+
 2.	Give the Policy a Name and a Description 
   
 3.	Add your domain(s) to the policy
+
 ![Safe Attachemnts](../img/sa2.png) 
+
 Add exclusions if you need to Bypass the Sandbox for any reason.
 
 4.	Configure the behavior of the Sandbox.
- ![Safe Attachemnts](../img/sa4.png) 
+
+![Safe Attachemnts](../img/sa4.png) 
  
 
 
@@ -87,7 +105,8 @@ From a Machine with a Excluded folder or a machine with EPP that is not Defender
 2.	Send the testfile as Attachment to an email address on your tenant.
 3.	From Exchange Message Trace, search for the email and look for the following :
 Reason: 400 4.7.721 Advanced Threat Protection scanning in progress.
- ![Safe Attachemnts](../img/sa5.png) 
+
+![Safe Attachemnts](../img/sa5.png) 
 
 
 
@@ -97,24 +116,33 @@ Time of click Protections
 
  ***Global Settings***
 Open Global Settings and Make Sure – Use Safe Links in Office 365 is Enabled. This will make Sure Safe Link work in Office Applications like Work, Excel, Power Point etc..
- ![Safe Links](../img/SL1.png) 
+
+![Safe Links](../img/SL1.png) 
+
 ![Safe Links](../img/SL2.png) 
 
 ***Policy Settings***
 
 1.	Create a new Safe Links Policy
+
 ![Safe Links](../img/SL3.png) 
+
 2.	Give the Policy a Name and a Description  
 
 3.	Add your domain(s) to the policy  
+
 ![Safe Links](../img/SL4.png) 
+
 4.	Activate following settings
- ![Safe Links](../img/SL5.png) 
+
+![Safe Links](../img/SL5.png) 
 
 5.	Use the default notification and Submit the policy.
- ![Safe Links](../img/SL6.png) 
+
+![Safe Links](../img/SL6.png) 
 
 
 **Test Safe Links**
 Send an Email with the following link included https://smartscreentestratings2(.)net/ - Remove the () from the URL. 
- ![Safe Links](../img/testSL.png) 
+
+![Safe Links](../img/testSL.png) 

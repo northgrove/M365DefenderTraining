@@ -36,8 +36,10 @@ Reboot the machine
 **RUN A EVALUATION LAB TEST SCENARIO**
 In the evaluation lab page select the “Simulations” pane
 Click “Create simulation”
-  ![EvalLAB](../img/simul1.png)
-Choose:
+
+![EvalLAB](../img/simul1.png)
+
+Choose:  
 AttackIQ and Persistence methods as the simulation, and run it on your lab machine
 Click “Create simulation”
 
