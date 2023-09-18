@@ -101,7 +101,7 @@ Add exclusions if you need to Bypass the Sandbox for any reason.
 For Sandbox to be triggered we need to send an email to a protected user with an attachment that is not yet scanned by any Defender service. 
 
 From a Machine with a Excluded folder or a machine with EPP that is not Defender. 
-1.	Download a test file with the number you are assigned from [M365DefenderTraining/Sonar at Sonar · northgrove/M365DefenderTraining (github.com)](https://github.com/northgrove/M365DefenderTraining/tree/Sonar/Sonar) (eks : first17.doc if you are assigned nr 17)
+1.	Download a test file with the number you are assigned from https://github.com/northgrove/M365DefenderTraining/tree/main/MaliciousFiles (eks : MaliciouseFile17.doc if you are assigned nr 17)
 2.	Send the testfile as Attachment to an email address on your tenant.
 3.	From Exchange Message Trace, search for the email and look for the following :
 Reason: 400 4.7.721 Advanced Threat Protection scanning in progress.
