@@ -1,18 +1,5 @@
 # Microsoft Defender Evaluation lab
 
-> **To setup the lab, do the "Enable the Defender for Endpoint Evaluation LAB" in the prerequisites section**
-
-then ..
-
-Provision a test device:
-1.	In the "Evaluation lab" screen, Click on "Add device" and select the default Windows 10 machine with Java, Office, Python, Sysinternals.
-![EvalLAB](../img/evallab5.png)
- 
-2.	Remember to Copy and paste the Username and Password for the machine.
-![EvalLAB](../img/evallab6.png)
-
-3.	The device will now be provisioned in the back ground. When done Create one more machine.
- ![EvalLAB](../img/evallab7.png)
 
 
 If you are going to use the Evaluation LAB machine as your test machine, you need to disable NLA.To be able to Add the machine to Azure AD and Endpoint Manager – *NB! Only needed for VM in Azure or Evaluation LAB*.

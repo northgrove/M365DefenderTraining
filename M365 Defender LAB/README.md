@@ -1,7 +1,9 @@
 # Microsoft 365 Defender Training Workshop
 
+**Prepare the lab:**
+### [Module 0 - Lab preparation](Module0-LabPreparation.md)
 
-Run the following modules:
+**Then, Run the following modules:**
 
 ### [Module 1 - Identity Protection](Module1-IdentityProtection.md)
 ### [Module 2 - Defender for Endpoint](Module2-DefenderForEndpoint.md)

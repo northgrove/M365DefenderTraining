@@ -14,7 +14,8 @@ Security policies can be configured as,
 •	Safe Attachments
 
 In Security.microsoft.com console navigate to Policies & Rules in the Email and Collaboration.
- ![MDO-Policies](../img/MDO-policies.png)
+
+![MDO-Policies](../img/MDO-policies.png)
 
 Click on Threat policies
 
