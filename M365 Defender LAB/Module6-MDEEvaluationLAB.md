@@ -15,7 +15,10 @@ Click “Create simulation”
 
 Choose:  
 AttackIQ and Persistence methods as the simulation, and run it on your lab machine
+
 Click “Create simulation”
+
+You can also run the Safebrach - Ransomware infection simulation. Give it some time between the different simulation runs, to not confuse and mixup the correleation of alerts between those to.
 
 
 **LAB SIMULATION QUESTION**

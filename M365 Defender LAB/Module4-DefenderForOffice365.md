@@ -109,7 +109,9 @@ Reason: 400 4.7.721 Advanced Threat Protection scanning in progress.
 
 ![Safe Attachemnts](../img/sa5.png) 
 
-
+**Questions**
+1. What is the resulting "Delivery action" for the email?
+2. What is the "family name" of the malware found in the email attachment?
 
  ### Safe Links
 Safe Links helps prevent your users from following links in email and documents that go to web sites recognized as malicious. 

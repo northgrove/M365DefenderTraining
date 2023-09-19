@@ -50,10 +50,10 @@ Log inn to https://portal.office.com with your testuser3
 -	Download each of the 6 files to your computer, one by one, within 5minutes.
 
 *Expected result:*
-An alert about “Mass download by single user” are created in MCAS
+An incident about “Mass download by single user” are created
 
 
-**BLOCKED ACCESS TO FACEBOOK FROM DEVICE**
+**BLOCKED ACCESS TO DROPBOX FROM DEVICE**
 Log inn to your test computer, enabled with Microsoft Defender for Endpoint
 -	Try access www.dropbox.com from a browser session
 
