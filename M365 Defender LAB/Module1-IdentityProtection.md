@@ -75,7 +75,7 @@ This policy will block users with any level of user risk from accessing Office 3
     -	Start the TOR browser, and connect to the TOR network
     -	Login with your test account “testuser1” to https://portal.azure.com
     -	Sign-in is interrupted with a “risky signin detected”. Cancel the sign-in
-    o	(if no Suspiciouse activity detected warning sign shows up, interrupt the sign-in, restart the TOR-browser and try sign-in again)
+        - (if no Suspiciouse activity detected warning sign shows up, interrupt the sign-in, restart the TOR-browser and try sign-in again)
     -	Close the TOR browser.
     -	Re-open the TOR browser and create a new connection to the TOR network.
     -	Login with your test account “testuser2” to https://portal.auzure.com
@@ -92,7 +92,7 @@ This policy will block users with any level of user risk from accessing Office 3
     -	Sign-in is interrupted with a “risky signin detected”. Cancel the sign-in
     o	(if no Suspiciouse activity detected warning sign shows up, interrupt the sign-in, restart the TOR-browser and try sign-in again)
     -	Start a regular browser and login to portal.office.com with “testuser3”
-    -	Try accessing the outlook app in portal.office.com
+    -	Try accessing the outlook app in portal.office.com  
     Expected result: 
     -	User is blocked by Conditional access to access the outlook app
 
@@ -101,6 +101,6 @@ Use Advanced Hunting in M365 Defender Console or the Sign-in log to answer:
 (NB! It may take up to 30min before the event is shown in the sign-in log console)
 1.	From witch location did testuser1 try to sign in?
 2.	What is the OS and browser version/Client agent detected for testuser2?
-a.	
+3. What is the detection type and Risk level for the login atempt?
 
 

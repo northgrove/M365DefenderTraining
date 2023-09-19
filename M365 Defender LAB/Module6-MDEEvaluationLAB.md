@@ -2,25 +2,12 @@
 
 
 
-If you are going to use the Evaluation LAB machine as your test machine, you need to disable NLA.To be able to Add the machine to Azure AD and Endpoint Manager – *NB! Only needed for VM in Azure or Evaluation LAB*.
-
-  
-**DISABLE NETWORK LEVEL AUTENTICATION (NLA) – NOT RECOMMENDED IN PRODUCTION**
-Open Remote Desktop and Log in to the device with the Provided Username and Password.
-
-Run this powershell script in and administrator elevated powershell prompt:
-```
-Write-Output 'Configuring registry to disable Network Level Authentication (NLA).'
-$path = 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp'
-Set-ItemProperty -Path $path -Name SecurityLayer -Type DWord -Value 0
-Set-ItemProperty -Path $path -Name UserAuthentication -Type DWord -Value 0
-Set-ItemProperty -Path $path -Name fAllowSecProtocolNegotiation -Type DWord -Value 0
-Write-Output 'Restart the VM for the change to take effect.'
-```
-Reboot the machine
-
-
 **RUN A EVALUATION LAB TEST SCENARIO**
+go to the Microsoft 365 Defender console -> Endpoints section -> Evaluation & tutorials -> Evaluation Lab
+
+At least one testmachine should be provisioned and active.
+
+
 In the evaluation lab page select the “Simulations” pane
 Click “Create simulation”
 

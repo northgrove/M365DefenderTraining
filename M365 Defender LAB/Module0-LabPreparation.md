@@ -23,7 +23,8 @@ Provision a test device:
 To get insight into Office 365 activities and files the app must be connected in MCAS and files scanning must be enabled.
 
 *Files*
-https://security.microsoft.com -> Settings -> Cloud Apps -> Files
+https://security.microsoft.com -> Settings -> Cloud Apps -> Files  
+
 Deep link: https://security.microsoft.com/cloudapps/settings?tabid=filesSettings&tid=dc23f235-b018-4e6c-98d2-3a51deb241ba
 
 ![MDEapps](../img/MDApps1.png)
@@ -72,8 +73,8 @@ Scroll down to “Microsoft information protection”
 -	Don’t enable “only scan files for Microsoft Information Protection sensitivity labels and content inspection from this tenant”
 -	Grant permission to inspect protected files
 
-
-### Licensing
+<br><br>
+## Adding Licenses to test users
 
 If not already done so, assign a Microsoft 365 E5 license to all your test users.
 (Remember to spesify the "usage location" on the user to be able to assign a license)
