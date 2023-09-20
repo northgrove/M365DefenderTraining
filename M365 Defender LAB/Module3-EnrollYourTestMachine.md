@@ -87,7 +87,6 @@ https://github.com/gentilkiwi/mimikatz/releases
 
 To be able to download and run Mimikatz you may need to disable som Defender for Endpoint first in line defense mechanisem like Smart Screen.
 
-TIP: Create an exclusion folder, i.e c:\demo, in Defender for Endpoint and download mimikatz to that folder.
 
 ```
 Example Mimikatz command sequence to run:
